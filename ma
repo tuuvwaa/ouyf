@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOog
 -- Âm thanh khởi động
 local startupSound = Instance.new("Sound")
 startupSound.SoundId = "rbxassetid://8594342648"
-startupSound.Volume = 10 -- Điều chỉnh âm lượng nếu cần
+startupSound.Volume = 100 -- Điều chỉnh âm lượng nếu cần
 startupSound.Looped = false -- Không lặp lại âm thanh
 startupSound.Parent = game.CoreGui-- Đặt parent vào CoreGui để đảm bảo âm thanh phát
 startupSound:Play() -- Phát âm thanh khi script chạy
@@ -27,7 +27,7 @@ screenGui.Parent = game.CoreGui
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Size = UDim2.new(0, 50, 0, 50) -- Kích thước nhỏ, hình vuông
 toggleButton.Position = UDim2.new(0, 10, 0, 10) -- Gần góc trái trên
-toggleButton.Image = "rbxassetid://112455697889846" -- Hình ảnh của nút
+toggleButton.Image = "rbxassetid://136991235575173" -- Hình ảnh của nút
 toggleButton.BackgroundTransparency = 1 -- Không có nền
 toggleButton.Parent = screenGui
 
