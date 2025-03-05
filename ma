@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOog
 -- Âm thanh khởi động
 local startupSound = Instance.new("Sound")
 startupSound.SoundId = "rbxassetid://8594342648"
-startupSound.Volume = 5 -- Điều chỉnh âm lượng nếu cần
+startupSound.Volume = 10 -- Điều chỉnh âm lượng nếu cần
 startupSound.Looped = false -- Không lặp lại âm thanh
 startupSound.Parent = game.CoreGui-- Đặt parent vào CoreGui để đảm bảo âm thanh phát
 startupSound:Play() -- Phát âm thanh khi script chạy
@@ -340,8 +340,8 @@ MainTab:AddButton({
     end
 })
 ChestTab:AddToggle("TuanAnhIOS_Toggle", {
-    Title = "Bật/Tắt Auto Chest",
-    Description = "Bật Tắt Auto Chest.",
+    Title = "Auto Nhặt Rương",
+    Description = "Bật Tắt Chest✅",
     Callback = function(value)
         _G.TuanAnhIOS_Enabled = value
 
